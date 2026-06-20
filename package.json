@@ -17,6 +17,7 @@
   "types": "src/index.d.ts",
   "exports": {
     ".": {
+      "types": "./src/index.d.ts",
       "import": "./src/index.js",
       "require": "./dist/bezier-easing.cjs"
     }
